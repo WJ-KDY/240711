@@ -1,0 +1,800 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed May  8 13:41:56 2024
+# Process ID: 15552
+# Current directory: C:/Users/oem/Desktop/24.05.08/VXONE_V01
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15328 C:\Users\oem\Desktop\24.05.08\VXONE_V01\VXONE_V01.xpr
+# Log file: C:/Users/oem/Desktop/24.05.08/VXONE_V01/vivado.log
+# Journal file: C:/Users/oem/Desktop/24.05.08/VXONE_V01\vivado.jou
+# Running On: DESKTOP-T0RQS2O, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 16, Host memory: 34118 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/../../../../../ip_repo'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/oem/ip_repo'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_dlmb_v10_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_dlmb_v10_1/CPU_block_dlmb_v10_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_dlmb_v10_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_dlmb_v10_1/CPU_block_dlmb_v10_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_dlmb_v10_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_dlmb_v10_1/CPU_block_dlmb_v10_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_dlmb_v10_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_dlmb_v10_1/CPU_block_dlmb_v10_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_dlmb_v10_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_dlmb_v10_1/CPU_block_dlmb_v10_1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_ilmb_v10_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_ilmb_v10_1/CPU_block_ilmb_v10_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_ilmb_v10_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_ilmb_v10_1/CPU_block_ilmb_v10_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_ilmb_v10_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_ilmb_v10_1/CPU_block_ilmb_v10_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_ilmb_v10_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_ilmb_v10_1/CPU_block_ilmb_v10_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_ilmb_v10_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_ilmb_v10_1/CPU_block_ilmb_v10_1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_dlmb_bram_if_cntlr_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_dlmb_bram_if_cntlr_1/CPU_block_dlmb_bram_if_cntlr_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_dlmb_bram_if_cntlr_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_dlmb_bram_if_cntlr_1/CPU_block_dlmb_bram_if_cntlr_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_dlmb_bram_if_cntlr_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_dlmb_bram_if_cntlr_1/CPU_block_dlmb_bram_if_cntlr_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_dlmb_bram_if_cntlr_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_dlmb_bram_if_cntlr_1/CPU_block_dlmb_bram_if_cntlr_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_dlmb_bram_if_cntlr_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_dlmb_bram_if_cntlr_1/CPU_block_dlmb_bram_if_cntlr_1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_ilmb_bram_if_cntlr_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_ilmb_bram_if_cntlr_1/CPU_block_ilmb_bram_if_cntlr_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_ilmb_bram_if_cntlr_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_ilmb_bram_if_cntlr_1/CPU_block_ilmb_bram_if_cntlr_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_ilmb_bram_if_cntlr_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_ilmb_bram_if_cntlr_1/CPU_block_ilmb_bram_if_cntlr_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_ilmb_bram_if_cntlr_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_ilmb_bram_if_cntlr_1/CPU_block_ilmb_bram_if_cntlr_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_ilmb_bram_if_cntlr_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_ilmb_bram_if_cntlr_1/CPU_block_ilmb_bram_if_cntlr_1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_lmb_bram_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_lmb_bram_1/CPU_block_lmb_bram_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_lmb_bram_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_lmb_bram_1/CPU_block_lmb_bram_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_lmb_bram_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_lmb_bram_1/CPU_block_lmb_bram_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_lmb_bram_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_lmb_bram_1/CPU_block_lmb_bram_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_lmb_bram_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_lmb_bram_1/CPU_block_lmb_bram_1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_mdm_1_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_mdm_1_1/CPU_block_mdm_1_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_mdm_1_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_mdm_1_1/CPU_block_mdm_1_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_mdm_1_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_mdm_1_1/CPU_block_mdm_1_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_mdm_1_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_mdm_1_1/CPU_block_mdm_1_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_mdm_1_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_mdm_1_1/CPU_block_mdm_1_1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_clk_wiz_1_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_clk_wiz_1_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_clk_wiz_1_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_clk_wiz_1_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_clk_wiz_1_1' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_rst_clk_wiz_1_100M_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_rst_clk_wiz_1_100M_0/CPU_block_rst_clk_wiz_1_100M_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_rst_clk_wiz_1_100M_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_rst_clk_wiz_1_100M_0/CPU_block_rst_clk_wiz_1_100M_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_rst_clk_wiz_1_100M_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_rst_clk_wiz_1_100M_0/CPU_block_rst_clk_wiz_1_100M_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_rst_clk_wiz_1_100M_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_rst_clk_wiz_1_100M_0/CPU_block_rst_clk_wiz_1_100M_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_rst_clk_wiz_1_100M_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_rst_clk_wiz_1_100M_0/CPU_block_rst_clk_wiz_1_100M_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_xbar_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_xbar_0/CPU_block_xbar_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_xbar_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_xbar_0/CPU_block_xbar_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_xbar_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_xbar_0/CPU_block_xbar_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_xbar_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_xbar_0/CPU_block_xbar_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_xbar_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_xbar_0/CPU_block_xbar_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_axi_intc_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_intc_0_0/CPU_block_axi_intc_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_axi_intc_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_intc_0_0/CPU_block_axi_intc_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_axi_intc_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_intc_0_0/CPU_block_axi_intc_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_axi_intc_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_intc_0_0/CPU_block_axi_intc_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_axi_intc_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_intc_0_0/CPU_block_axi_intc_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_axi_amm_bridge_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_amm_bridge_0_0/CPU_block_axi_amm_bridge_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_axi_amm_bridge_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_amm_bridge_0_0/CPU_block_axi_amm_bridge_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_axi_amm_bridge_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_amm_bridge_0_0/CPU_block_axi_amm_bridge_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_axi_amm_bridge_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_amm_bridge_0_0/CPU_block_axi_amm_bridge_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_axi_amm_bridge_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_amm_bridge_0_0/CPU_block_axi_amm_bridge_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_clk_wiz_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_clk_wiz_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_clk_wiz_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_clk_wiz_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_clk_wiz_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_microblaze_0_2' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_microblaze_0_2/CPU_block_microblaze_0_2.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_microblaze_0_2' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_microblaze_0_2/CPU_block_microblaze_0_2_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_microblaze_0_2' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_microblaze_0_2/CPU_block_microblaze_0_2_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_microblaze_0_2' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_microblaze_0_2/CPU_block_microblaze_0_2_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_microblaze_0_2' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_microblaze_0_2/CPU_block_microblaze_0_2_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_axi_uartlite_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_uartlite_0_0/CPU_block_axi_uartlite_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_axi_uartlite_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_uartlite_0_0/CPU_block_axi_uartlite_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_axi_uartlite_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_uartlite_0_0/CPU_block_axi_uartlite_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_axi_uartlite_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_uartlite_0_0/CPU_block_axi_uartlite_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'CPU_block_axi_uartlite_0_0' generated file not found 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_uartlite_0_0/CPU_block_axi_uartlite_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 1842.598 ; gain = 383.672
+update_compile_order -fileset sources_1
+reset_run synth_1
+reset_run CPU_block_ilmb_v10_1_synth_1
+reset_run vx1_vid_ila_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run rx_fifo_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run vx1_phy_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run CPU_block_axi_intc_0_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run CPU_block_dlmb_bram_if_cntlr_1_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run CPU_block_microblaze_0_2_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run CPU_block_clk_wiz_1_1_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run CPU_block_clk_wiz_0_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run CPU_block_rst_clk_wiz_1_100M_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run CPU_block_xbar_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run CPU_block_ilmb_bram_if_cntlr_1_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run CPU_block_mdm_1_1_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run CPU_block_lmb_bram_1_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run CPU_block_dlmb_v10_1_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run CPU_block_axi_amm_bridge_0_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run CPU_block_axi_uartlite_0_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run vx1_vio_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run clk_wiz_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP CPU_block_axi_amm_bridge_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP CPU_block_axi_intc_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP CPU_block_axi_uartlite_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP CPU_block_clk_wiz_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP CPU_block_clk_wiz_1_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP CPU_block_dlmb_bram_if_cntlr_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP CPU_block_dlmb_v10_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP CPU_block_ilmb_bram_if_cntlr_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP CPU_block_ilmb_v10_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP CPU_block_lmb_bram_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP CPU_block_mdm_1_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP CPU_block_microblaze_0_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP CPU_block_rst_clk_wiz_1_100M_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP CPU_block_xbar_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: CPU_block_axi_amm_bridge_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: CPU_block_axi_intc_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: CPU_block_axi_uartlite_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: CPU_block_mdm_1_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: CPU_block_microblaze_0_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: CPU_block_rst_clk_wiz_1_100M_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: CPU_block_xbar_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: CPU_block_clk_wiz_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: CPU_block_clk_wiz_1_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: CPU_block_dlmb_bram_if_cntlr_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: CPU_block_dlmb_v10_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: CPU_block_ilmb_bram_if_cntlr_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: CPU_block_ilmb_v10_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: CPU_block_lmb_bram_1
+[Wed May  8 13:44:27 2024] Launched vx1_vid_ila_synth_1, rx_fifo_synth_1, vx1_phy_synth_1, CPU_block_axi_intc_0_0_synth_1, CPU_block_dlmb_bram_if_cntlr_1_synth_1, CPU_block_microblaze_0_2_synth_1, vx1_vio_0_synth_1, CPU_block_clk_wiz_1_1_synth_1, CPU_block_clk_wiz_0_0_synth_1, CPU_block_rst_clk_wiz_1_100M_0_synth_1, CPU_block_xbar_0_synth_1, CPU_block_ilmb_bram_if_cntlr_1_synth_1, CPU_block_mdm_1_1_synth_1, CPU_block_lmb_bram_1_synth_1, CPU_block_dlmb_v10_1_synth_1, CPU_block_axi_amm_bridge_0_0_synth_1, CPU_block_ilmb_v10_1_synth_1, CPU_block_axi_uartlite_0_0_synth_1, clk_wiz_0_synth_1, synth_1...
+Run output will be captured here:
+vx1_vid_ila_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/vx1_vid_ila_synth_1/runme.log
+rx_fifo_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/rx_fifo_synth_1/runme.log
+vx1_phy_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/vx1_phy_synth_1/runme.log
+CPU_block_axi_intc_0_0_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_axi_intc_0_0_synth_1/runme.log
+CPU_block_dlmb_bram_if_cntlr_1_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_dlmb_bram_if_cntlr_1_synth_1/runme.log
+CPU_block_microblaze_0_2_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_microblaze_0_2_synth_1/runme.log
+vx1_vio_0_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/vx1_vio_0_synth_1/runme.log
+CPU_block_clk_wiz_1_1_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_clk_wiz_1_1_synth_1/runme.log
+CPU_block_clk_wiz_0_0_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_clk_wiz_0_0_synth_1/runme.log
+CPU_block_rst_clk_wiz_1_100M_0_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_rst_clk_wiz_1_100M_0_synth_1/runme.log
+CPU_block_xbar_0_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_xbar_0_synth_1/runme.log
+CPU_block_ilmb_bram_if_cntlr_1_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_ilmb_bram_if_cntlr_1_synth_1/runme.log
+CPU_block_mdm_1_1_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_mdm_1_1_synth_1/runme.log
+CPU_block_lmb_bram_1_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_lmb_bram_1_synth_1/runme.log
+CPU_block_dlmb_v10_1_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_dlmb_v10_1_synth_1/runme.log
+CPU_block_axi_amm_bridge_0_0_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_axi_amm_bridge_0_0_synth_1/runme.log
+CPU_block_ilmb_v10_1_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_ilmb_v10_1_synth_1/runme.log
+CPU_block_axi_uartlite_0_0_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_axi_uartlite_0_0_synth_1/runme.log
+clk_wiz_0_synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/clk_wiz_0_synth_1/runme.log
+synth_1: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/synth_1/runme.log
+[Wed May  8 13:44:29 2024] Launched impl_1...
+Run output will be captured here: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 1914.703 ; gain = 44.738
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed May  8 14:28:56 2024] Launched synth_1...
+Run output will be captured here: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/synth_1/runme.log
+[Wed May  8 14:28:56 2024] Launched impl_1...
+Run output will be captured here: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Wed May  8 15:08:35 2024] Launched synth_1...
+Run output will be captured here: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xcku11p-ffve1517-1-i
+INFO: [Device 21-403] Loading part xcku11p-ffve1517-1-i
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/.Xil/Vivado-15552-DESKTOP-T0RQS2O/clk_wiz_0/clk_wiz_0.dcp' for cell 'rxrec84p24.clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/.Xil/Vivado-15552-DESKTOP-T0RQS2O/vx1_vio_0/vx1_vio_0.dcp' for cell 'vx1_vio'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_amm_bridge_0_0/CPU_block_axi_amm_bridge_0_0.dcp' for cell 'CPU_block/axi_amm_bridge_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_intc_0_0/CPU_block_axi_intc_0_0.dcp' for cell 'CPU_block/axi_intc_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_uartlite_0_0/CPU_block_axi_uartlite_0_0.dcp' for cell 'CPU_block/axi_uartlite_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0.dcp' for cell 'CPU_block/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1.dcp' for cell 'CPU_block/clk_wiz_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_mdm_1_1/CPU_block_mdm_1_1.dcp' for cell 'CPU_block/mdm_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_microblaze_0_2/CPU_block_microblaze_0_2.dcp' for cell 'CPU_block/microblaze_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_rst_clk_wiz_1_100M_0/CPU_block_rst_clk_wiz_1_100M_0.dcp' for cell 'CPU_block/rst_clk_wiz_1_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_xbar_0/CPU_block_xbar_0.dcp' for cell 'CPU_block/axi_interconnect_0/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_dlmb_bram_if_cntlr_1/CPU_block_dlmb_bram_if_cntlr_1.dcp' for cell 'CPU_block/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_dlmb_v10_1/CPU_block_dlmb_v10_1.dcp' for cell 'CPU_block/microblaze_0_local_memory/dlmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_ilmb_bram_if_cntlr_1/CPU_block_ilmb_bram_if_cntlr_1.dcp' for cell 'CPU_block/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_ilmb_v10_1/CPU_block_ilmb_v10_1.dcp' for cell 'CPU_block/microblaze_0_local_memory/ilmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_lmb_bram_1/CPU_block_lmb_bram_1.dcp' for cell 'CPU_block/microblaze_0_local_memory/lmb_bram'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/.Xil/Vivado-15552-DESKTOP-T0RQS2O/vx1_vid_ila/vx1_vid_ila.dcp' for cell 'vx1_debug/vx1_vid_ila'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/.Xil/Vivado-15552-DESKTOP-T0RQS2O/rx_fifo/rx_fifo.dcp' for cell 'vx1_link/vx1_rx_align_buff/buff[0].rx_fifo'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/.Xil/Vivado-15552-DESKTOP-T0RQS2O/vx1_phy/vx1_phy.dcp' for cell 'vx1_phy/vx1_phy'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.864 . Memory (MB): peak = 3247.711 ; gain = 9.898
+INFO: [Netlist 29-17] Analyzing 2384 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: vx1_debug/vx1_vid_ila UUID: 7d2e6518-27e1-5218-9542-2040b80e10cf 
+INFO: [Chipscope 16-324] Core: vx1_vio UUID: 6dca6ef7-236f-5103-bc4d-e9fab1330a54 
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1_board.xdc] for cell 'CPU_block/clk_wiz_1/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1_board.xdc] for cell 'CPU_block/clk_wiz_1/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1.xdc] for cell 'CPU_block/clk_wiz_1/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1.xdc] for cell 'CPU_block/clk_wiz_1/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_rst_clk_wiz_1_100M_0/CPU_block_rst_clk_wiz_1_100M_0_board.xdc] for cell 'CPU_block/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_rst_clk_wiz_1_100M_0/CPU_block_rst_clk_wiz_1_100M_0_board.xdc] for cell 'CPU_block/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_rst_clk_wiz_1_100M_0/CPU_block_rst_clk_wiz_1_100M_0.xdc] for cell 'CPU_block/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_rst_clk_wiz_1_100M_0/CPU_block_rst_clk_wiz_1_100M_0.xdc] for cell 'CPU_block/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_intc_0_0/CPU_block_axi_intc_0_0.xdc] for cell 'CPU_block/axi_intc_0/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_intc_0_0/CPU_block_axi_intc_0_0.xdc] for cell 'CPU_block/axi_intc_0/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_amm_bridge_0_0/CPU_block_axi_amm_bridge_0_0.xdc] for cell 'CPU_block/axi_amm_bridge_0/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_amm_bridge_0_0/CPU_block_axi_amm_bridge_0_0.xdc] for cell 'CPU_block/axi_amm_bridge_0/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0_board.xdc] for cell 'CPU_block/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0_board.xdc] for cell 'CPU_block/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0.xdc] for cell 'CPU_block/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0.xdc] for cell 'CPU_block/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_microblaze_0_2/CPU_block_microblaze_0_2.xdc] for cell 'CPU_block/microblaze_0/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_microblaze_0_2/CPU_block_microblaze_0_2.xdc] for cell 'CPU_block/microblaze_0/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_uartlite_0_0/CPU_block_axi_uartlite_0_0_board.xdc] for cell 'CPU_block/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_uartlite_0_0/CPU_block_axi_uartlite_0_0_board.xdc] for cell 'CPU_block/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_uartlite_0_0/CPU_block_axi_uartlite_0_0.xdc] for cell 'CPU_block/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_uartlite_0_0/CPU_block_axi_uartlite_0_0.xdc] for cell 'CPU_block/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vid_ila/ila_v6_2/constraints/ila_impl.xdc] for cell 'vx1_debug/vx1_vid_ila/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vid_ila/ila_v6_2/constraints/ila_impl.xdc] for cell 'vx1_debug/vx1_vid_ila/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vid_ila/ila_v6_2/constraints/ila.xdc] for cell 'vx1_debug/vx1_vid_ila/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vid_ila/ila_v6_2/constraints/ila.xdc] for cell 'vx1_debug/vx1_vid_ila/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[0].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[0].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[10].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[10].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[11].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[11].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[12].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[12].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[13].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[13].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[14].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[14].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[15].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[15].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[16].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[16].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[17].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[17].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[18].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[18].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[19].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[19].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[1].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[1].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[20].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[20].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[21].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[21].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[22].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[22].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[23].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[23].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[24].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[24].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[25].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[25].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[26].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[26].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[27].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[27].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[28].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[28].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[29].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[29].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[2].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[2].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[30].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[30].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[31].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[31].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[3].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[3].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[4].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[4].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[5].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[5].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[6].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[6].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[7].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[7].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[8].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[8].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[9].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[9].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_phy/synth/vx1_phy.xdc] for cell 'vx1_phy/vx1_phy/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_phy/synth/vx1_phy.xdc] for cell 'vx1_phy/vx1_phy/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vio_0/vx1_vio_0.xdc] for cell 'vx1_vio'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vio_0/vx1_vio_0.xdc] for cell 'vx1_vio'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'rxrec84p24.clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'rxrec84p24.clk_wiz_0/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'rxrec84p24.clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'rxrec84p24.clk_wiz_0/inst'
+Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/pin.xdc]
+Finished Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/pin.xdc]
+Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/us_vbone_phy_top.xdc]
+Finished Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/us_vbone_phy_top.xdc]
+Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/config.xdc]
+Finished Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/config.xdc]
+Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/timing.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/timing.xdc:3]
+INFO: [Timing 38-2] Deriving generated clocks [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/timing.xdc:3]
+Finished Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/timing.xdc]
+Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/new/debug.xdc]
+Finished Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/new/debug.xdc]
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_mdm_1_1/CPU_block_mdm_1_1.xdc] for cell 'CPU_block/mdm_1/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_mdm_1_1/CPU_block_mdm_1_1.xdc] for cell 'CPU_block/mdm_1/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1_late.xdc] for cell 'CPU_block/clk_wiz_1/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1_late.xdc] for cell 'CPU_block/clk_wiz_1/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_intc_0_0/CPU_block_axi_intc_0_0_clocks.xdc] for cell 'CPU_block/axi_intc_0/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_intc_0_0/CPU_block_axi_intc_0_0_clocks.xdc] for cell 'CPU_block/axi_intc_0/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0_late.xdc] for cell 'CPU_block/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0_late.xdc] for cell 'CPU_block/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[0].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[0].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[10].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[10].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[11].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[11].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[12].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[12].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[13].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[13].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[14].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[14].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[15].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[15].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[16].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[16].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[17].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[17].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[18].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[18].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[19].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[19].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[1].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[1].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[20].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[20].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[21].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[21].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[22].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[22].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[23].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[23].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[24].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[24].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[25].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[25].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[26].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[26].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[27].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[27].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[28].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[28].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[29].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[29].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[2].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[2].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[30].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[30].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[31].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[31].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[3].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[3].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[4].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[4].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[5].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[5].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[6].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[6].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[7].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[7].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[8].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[8].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[9].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[9].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_late.xdc] for cell 'rxrec84p24.clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_late.xdc] for cell 'rxrec84p24.clk_wiz_0/inst'
+INFO: [Project 1-1714] 194 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell CPU_block/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell CPU_block/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell CPU_block/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell CPU_block/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+Generating merged BMM file for the design top 'board_top'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/imports/Debug/mb_0.elf 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 4370.801 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 970 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 648 instances
+  DSP48E1 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 3 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 8 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 145 instances
+  OBUFDS => OBUFDS: 2 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 32 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 68 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 64 instances
+
+open_run: Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 4823.078 ; gain = 2840.285
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: I, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+report_timing_summary: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 6865.516 ; gain = 673.746
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Wed May  8 15:14:04 2024] Launched synth_1...
+Run output will be captured here: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xcku11p-ffve1517-1-i
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/.Xil/Vivado-15552-DESKTOP-T0RQS2O/clk_wiz_0/clk_wiz_0.dcp' for cell 'clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/.Xil/Vivado-15552-DESKTOP-T0RQS2O/vx1_vio_0/vx1_vio_0.dcp' for cell 'vx1_vio'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_amm_bridge_0_0/CPU_block_axi_amm_bridge_0_0.dcp' for cell 'CPU_block/axi_amm_bridge_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_intc_0_0/CPU_block_axi_intc_0_0.dcp' for cell 'CPU_block/axi_intc_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_uartlite_0_0/CPU_block_axi_uartlite_0_0.dcp' for cell 'CPU_block/axi_uartlite_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0.dcp' for cell 'CPU_block/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1.dcp' for cell 'CPU_block/clk_wiz_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_mdm_1_1/CPU_block_mdm_1_1.dcp' for cell 'CPU_block/mdm_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_microblaze_0_2/CPU_block_microblaze_0_2.dcp' for cell 'CPU_block/microblaze_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_rst_clk_wiz_1_100M_0/CPU_block_rst_clk_wiz_1_100M_0.dcp' for cell 'CPU_block/rst_clk_wiz_1_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_xbar_0/CPU_block_xbar_0.dcp' for cell 'CPU_block/axi_interconnect_0/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_dlmb_bram_if_cntlr_1/CPU_block_dlmb_bram_if_cntlr_1.dcp' for cell 'CPU_block/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_dlmb_v10_1/CPU_block_dlmb_v10_1.dcp' for cell 'CPU_block/microblaze_0_local_memory/dlmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_ilmb_bram_if_cntlr_1/CPU_block_ilmb_bram_if_cntlr_1.dcp' for cell 'CPU_block/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_ilmb_v10_1/CPU_block_ilmb_v10_1.dcp' for cell 'CPU_block/microblaze_0_local_memory/ilmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_lmb_bram_1/CPU_block_lmb_bram_1.dcp' for cell 'CPU_block/microblaze_0_local_memory/lmb_bram'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/.Xil/Vivado-15552-DESKTOP-T0RQS2O/vx1_vid_ila/vx1_vid_ila.dcp' for cell 'vx1_debug/vx1_vid_ila'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/.Xil/Vivado-15552-DESKTOP-T0RQS2O/rx_fifo/rx_fifo.dcp' for cell 'vx1_link/vx1_rx_align_buff/buff[0].rx_fifo'
+INFO: [Project 1-454] Reading design checkpoint 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/.Xil/Vivado-15552-DESKTOP-T0RQS2O/vx1_phy/vx1_phy.dcp' for cell 'vx1_phy/vx1_phy'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 6917.297 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2384 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: vx1_debug/vx1_vid_ila UUID: 7d2e6518-27e1-5218-9542-2040b80e10cf 
+INFO: [Chipscope 16-324] Core: vx1_vio UUID: 6dca6ef7-236f-5103-bc4d-e9fab1330a54 
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1_board.xdc] for cell 'CPU_block/clk_wiz_1/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1_board.xdc] for cell 'CPU_block/clk_wiz_1/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1.xdc] for cell 'CPU_block/clk_wiz_1/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1.xdc] for cell 'CPU_block/clk_wiz_1/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_rst_clk_wiz_1_100M_0/CPU_block_rst_clk_wiz_1_100M_0_board.xdc] for cell 'CPU_block/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_rst_clk_wiz_1_100M_0/CPU_block_rst_clk_wiz_1_100M_0_board.xdc] for cell 'CPU_block/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_rst_clk_wiz_1_100M_0/CPU_block_rst_clk_wiz_1_100M_0.xdc] for cell 'CPU_block/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_rst_clk_wiz_1_100M_0/CPU_block_rst_clk_wiz_1_100M_0.xdc] for cell 'CPU_block/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_intc_0_0/CPU_block_axi_intc_0_0.xdc] for cell 'CPU_block/axi_intc_0/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_intc_0_0/CPU_block_axi_intc_0_0.xdc] for cell 'CPU_block/axi_intc_0/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_amm_bridge_0_0/CPU_block_axi_amm_bridge_0_0.xdc] for cell 'CPU_block/axi_amm_bridge_0/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_amm_bridge_0_0/CPU_block_axi_amm_bridge_0_0.xdc] for cell 'CPU_block/axi_amm_bridge_0/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0_board.xdc] for cell 'CPU_block/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0_board.xdc] for cell 'CPU_block/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0.xdc] for cell 'CPU_block/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0.xdc] for cell 'CPU_block/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_microblaze_0_2/CPU_block_microblaze_0_2.xdc] for cell 'CPU_block/microblaze_0/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_microblaze_0_2/CPU_block_microblaze_0_2.xdc] for cell 'CPU_block/microblaze_0/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_uartlite_0_0/CPU_block_axi_uartlite_0_0_board.xdc] for cell 'CPU_block/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_uartlite_0_0/CPU_block_axi_uartlite_0_0_board.xdc] for cell 'CPU_block/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_uartlite_0_0/CPU_block_axi_uartlite_0_0.xdc] for cell 'CPU_block/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_uartlite_0_0/CPU_block_axi_uartlite_0_0.xdc] for cell 'CPU_block/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vid_ila/ila_v6_2/constraints/ila_impl.xdc] for cell 'vx1_debug/vx1_vid_ila/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vid_ila/ila_v6_2/constraints/ila_impl.xdc] for cell 'vx1_debug/vx1_vid_ila/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vid_ila/ila_v6_2/constraints/ila.xdc] for cell 'vx1_debug/vx1_vid_ila/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vid_ila/ila_v6_2/constraints/ila.xdc] for cell 'vx1_debug/vx1_vid_ila/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[0].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[0].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[10].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[10].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[11].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[11].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[12].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[12].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[13].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[13].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[14].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[14].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[15].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[15].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[16].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[16].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[17].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[17].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[18].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[18].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[19].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[19].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[1].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[1].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[20].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[20].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[21].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[21].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[22].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[22].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[23].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[23].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[24].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[24].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[25].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[25].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[26].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[26].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[27].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[27].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[28].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[28].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[29].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[29].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[2].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[2].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[30].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[30].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[31].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[31].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[3].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[3].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[4].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[4].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[5].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[5].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[6].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[6].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[7].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[7].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[8].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[8].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[9].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[9].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_phy/synth/vx1_phy.xdc] for cell 'vx1_phy/vx1_phy/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_phy/synth/vx1_phy.xdc] for cell 'vx1_phy/vx1_phy/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vio_0/vx1_vio_0.xdc] for cell 'vx1_vio'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vio_0/vx1_vio_0.xdc] for cell 'vx1_vio'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'clk_wiz_0/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'clk_wiz_0/inst'
+Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/pin.xdc]
+Finished Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/pin.xdc]
+Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/us_vbone_phy_top.xdc]
+Finished Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/us_vbone_phy_top.xdc]
+Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/config.xdc]
+Finished Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/config.xdc]
+Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/timing.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/timing.xdc:3]
+INFO: [Timing 38-2] Deriving generated clocks [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/timing.xdc:3]
+Finished Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/imports/xdc/timing.xdc]
+Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/new/debug.xdc]
+Finished Parsing XDC File [C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/constrs_1/new/debug.xdc]
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_mdm_1_1/CPU_block_mdm_1_1.xdc] for cell 'CPU_block/mdm_1/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_mdm_1_1/CPU_block_mdm_1_1.xdc] for cell 'CPU_block/mdm_1/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1_late.xdc] for cell 'CPU_block/clk_wiz_1/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_1_1/CPU_block_clk_wiz_1_1_late.xdc] for cell 'CPU_block/clk_wiz_1/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_intc_0_0/CPU_block_axi_intc_0_0_clocks.xdc] for cell 'CPU_block/axi_intc_0/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_axi_intc_0_0/CPU_block_axi_intc_0_0_clocks.xdc] for cell 'CPU_block/axi_intc_0/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0_late.xdc] for cell 'CPU_block/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.gen/sources_1/bd/CPU_block/ip/CPU_block_clk_wiz_0_0/CPU_block_clk_wiz_0_0_late.xdc] for cell 'CPU_block/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[0].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[0].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[10].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[10].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[11].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[11].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[12].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[12].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[13].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[13].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[14].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[14].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[15].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[15].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[16].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[16].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[17].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[17].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[18].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[18].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[19].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[19].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[1].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[1].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[20].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[20].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[21].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[21].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[22].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[22].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[23].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[23].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[24].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[24].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[25].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[25].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[26].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[26].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[27].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[27].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[28].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[28].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[29].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[29].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[2].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[2].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[30].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[30].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[31].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[31].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[3].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[3].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[4].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[4].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[5].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[5].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[6].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[6].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[7].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[7].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[8].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[8].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[9].rx_fifo/U0'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo_clocks.xdc] for cell 'vx1_link/vx1_rx_align_buff/buff[9].rx_fifo/U0'
+Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_late.xdc] for cell 'clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_late.xdc] for cell 'clk_wiz_0/inst'
+INFO: [Project 1-1714] 194 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell CPU_block/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell CPU_block/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell CPU_block/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell CPU_block/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+Generating merged BMM file for the design top 'board_top'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/imports/Debug/mb_0.elf 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 6917.297 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 970 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 648 instances
+  DSP48E1 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 3 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 8 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 145 instances
+  OBUFDS => OBUFDS: 2 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 32 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 68 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 64 instances
+
+open_run: Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 6917.297 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: I, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+report_timing_summary: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 6991.113 ; gain = 73.816
+close_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed May  8 15:19:55 2024] Launched synth_1...
+Run output will be captured here: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/synth_1/runme.log
+[Wed May  8 15:19:55 2024] Launched impl_1...
+Run output will be captured here: C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/impl_1/runme.log
+reset_run synth_1
+reset_target all [get_files  C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+export_ip_user_files -of_objects  [get_files  C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset clk_wiz_0] C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/clk_wiz_0_synth_1
+
+INFO: [Project 1-386] Moving file 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' from fileset 'clk_wiz_0' to fileset 'sources_1'.
+INFO: [Project 1-386] Moving file 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/clk_wiz_0.xcix' from fileset 'clk_wiz_0' to fileset 'sources_1'.
+reset_target all [get_files  C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xci]
+export_ip_user_files -of_objects  [get_files  C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xci] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset rx_fifo] C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xci]
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/rx_fifo_synth_1
+
+INFO: [Project 1-386] Moving file 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo/rx_fifo.xci' from fileset 'rx_fifo' to fileset 'sources_1'.
+INFO: [Project 1-386] Moving file 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/rx_fifo.xcix' from fileset 'rx_fifo' to fileset 'sources_1'.
+reset_target all [get_files  C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_phy/vx1_phy.xci]
+export_ip_user_files -of_objects  [get_files  C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_phy/vx1_phy.xci] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset vx1_phy] C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_phy/vx1_phy.xci]
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/vx1_phy_synth_1
+
+INFO: [Project 1-386] Moving file 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_phy/vx1_phy.xci' from fileset 'vx1_phy' to fileset 'sources_1'.
+INFO: [Project 1-386] Moving file 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_phy.xcix' from fileset 'vx1_phy' to fileset 'sources_1'.
+reset_target all [get_files  C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vid_ila/vx1_vid_ila.xci]
+reset_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 7046.535 ; gain = 0.000
+export_ip_user_files -of_objects  [get_files  C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vid_ila/vx1_vid_ila.xci] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset vx1_vid_ila] C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vid_ila/vx1_vid_ila.xci]
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/vx1_vid_ila_synth_1
+
+INFO: [Project 1-386] Moving file 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vid_ila/vx1_vid_ila.xci' from fileset 'vx1_vid_ila' to fileset 'sources_1'.
+INFO: [Project 1-386] Moving file 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vid_ila.xcix' from fileset 'vx1_vid_ila' to fileset 'sources_1'.
+update_compile_order -fileset sources_1
+reset_target all [get_files  C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vio_0/vx1_vio_0.xci]
+export_ip_user_files -of_objects  [get_files  C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vio_0/vx1_vio_0.xci] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset vx1_vio_0] C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vio_0/vx1_vio_0.xci]
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/vx1_vio_0_synth_1
+
+INFO: [Project 1-386] Moving file 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vio_0/vx1_vio_0.xci' from fileset 'vx1_vio_0' to fileset 'sources_1'.
+INFO: [Project 1-386] Moving file 'C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/ip/vx1_vio_0.xcix' from fileset 'vx1_vio_0' to fileset 'sources_1'.
+update_compile_order -fileset sources_1
+reset_target all [get_files  C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/bd/CPU_block/CPU_block.bd]
+export_ip_user_files -of_objects  [get_files  C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/bd/CPU_block/CPU_block.bd] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.srcs/sources_1/bd/CPU_block/CPU_block.bd]
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_dlmb_v10_1_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_ilmb_v10_1_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_dlmb_bram_if_cntlr_1_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_ilmb_bram_if_cntlr_1_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/oem/Desktop/24.05.08/VXONE_V01/VXONE_V01.runs/CPU_block_lmb_bram_1_synth_1
+
+delete_ip_run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 7046.535 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May  8 15:55:09 2024...
